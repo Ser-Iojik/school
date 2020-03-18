@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Урок 1 (Основы вёрстки)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i&amp;subset=latin-ext,vietnamese" rel="stylesheet">
+</head>
+<body>
+    <header class="header-les">
+        <div id="container_menu-les">
+            <nav>
+                <ul class="menu-les">
+                    <li class="menu__list-les"><div>Меню</div>
+                        <ul class="menu__drop-les">
+                            <li><a href="index.html" title="Перейти на главную страницу">Главная</a></li>
+                            <li><a href="lesson1.html" title="Урок первый">Урок 1 (Основы вёрстки)</a></li>
+                            <li><a href="lesson2.html" title="Урок второй">Урок 2 (Продолжение)</a></li>
+                            <li><a href="lesson3.html" title="Урок третий">Урок 3 (Формы)</a></li>
+                            <li><a href="lesson4.html" title="Урок четвертый">Урок 4 (Box-model)</a></li>
+                            <li><a href="lesson5.html" title="Урок пятый">Урок 5 (Box-model-grid)</a></li>
+                            <li><a href="lesson6.html" title="Урок шестой">Урок 6 (CSS-base)</a></li>
+                            <li><a href="lesson7.html" title="Урок седьмой">Урок 7 (Pseudo)</a></li>
+                            <li><a href="lesson8.html" title="Урок восьмой">Урок 8 (Flex-box)</a></li>
+                            <li><a href="lesson9.html" title="Урок девятый">Урок 9 (Продолжение)</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        <div class="title"><a href="index.html" title="На главную">Курс по базовым знаниям вёрстки</a></div>
+    </div>
+
+    </header>
+    <main class="main-les">
+        <div class="title-les">
+            <div class="title-les-big"><div>Урок 1</div>&nbsp;-&nbsp;Основы вёрстки</div>
+            <div class="title-les-description">Web страница, теги(основные), основные типы тегов, блочные/строчные элементы</div>
+        </div>
+        <div class="text-block">
+            <div>
+                <div class="text-block-title-big"><div>Web</div>&nbsp;- страница</div>
+            </div>
+            <div class="text-block-inf">
+                    <p><span>Информационно значимое</span>&nbsp;содержимое веб-страницы обычно
+                    называется контентом.</p><br/><br/>
+                    <p><span>Несколько веб-страниц</span>,объединённых общей темой, а также связанных</p>
+                    <p>между собой ссылками, образуют&nbsp;<span>веб-сайт</span>.</p><br/><br/>
+                    <p><span>Статические веб страницы</span>&nbsp;- неизменные файлы, лежащие на сервере.</p><br/><br/>
+                    <p><span>Динамические веб страницы</span>&nbsp;сгенерированы на сервере, их контент</p>
+                    <p>может меняться, обычно такие страницы обрабатывают и выводят</p>
+                    <p>информацию из базы данных.</p>
+            </div>
+        </div>
+        <div class="text-block">
+            <div>
+                <div class="text-block-title-big"><div>Hyper Text Language&nbsp;</div>(HTML)</div>
+            </div>
+            <div class="text-block-inf">
+                    <p><span>Hyper Text Markup Language (язык разметки гипертекста)&nbsp;</span>- стандартный язык разметки</p>
+                    <p>документов во Всемирной паутине.</p><br/><br/>
+                    <p>Отвечает за расположение элементов на странице, и за ее структуру.</p><br/><br/>
+                    <p>Html состоит из<span>&nbsp;тегов</span>, их<span>&nbsp;атрибутов&nbsp;</span>и непосредственного содержимого.</p><br/><br/>
+                    <p>Браузер распознает теги, понимает их и отображает страницу.</p>
+            </div>
+        </div>
+        <div class="text-block">
+            <div>
+                <div class="text-block-title-big">Структура<div>&nbsp;HTML&nbsp;</div>- документа</div>
+            </div>
+            <div class="text-block-inf">
+                    <p>&lt;!DOCTYPE html&gt&nbsp;&lt;!--Описание типа документа--&gt</p>
+                    <p class="black">&lt;<span>html</span>&nbsp;<span class="blue">lang</span>="ru"&gt</p>
+                    <p class="black">&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span>head</span>&gt</p>
+                    <p class="p__margin-top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!--Теги заголовков документа--&gt</p>
+                    <p class="black">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/<span>head</span>&gt</p>
+                    <p class="black">&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span>body</span>&gt</p>
+                    <p class="p__margin-top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!--Теги, которые отвечают за содержимое страницы--&gt</p>
+                    <p class="black">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/<span>body</span>&gt</p>
+                    <p class="black">&lt;/<span>html</span>&gt</p>
+            </div>
+        </div>
+        <div class="text-block">
+            <div>
+                <div class="text-block-title-big"><div>Страница сайта включает в себя</div>:</div>
+            </div>
+            <div class="text-block-inf">
+                    <p>Первой строчкой &lt;!DOCTYPE html&gt - это указание типа документа.</p><br/>
+                    <p>Далее две основные части:</p>
+                    <p class="black">&lt;<span>head</span>&gt&lt;/<span>head</span>&gt</p>
+                    <p class="black">&lt;<span>body</span>&gt&lt;/<span>body</span>&gt</p><br/>
+                    <p>Содержимое части <span>&nbsp;head&nbsp;</span> не видно пользователю в браузере</p>
+                    <p>(за исключением, тега <span>&nbsp;title</span>).</p><br/>
+                    <p>Вся <span>&nbsp;видимая часть&nbsp;</span> страницы формируется структурой <span>&nbsp;body</span>.</p>
+            </div>
+        </div>
+        <div class="text-block">
+            <div>
+                <div class="text-block-title-big">Тег&nbsp;<div>&lt;head&gt&lt;/head&gt</div></div>
+            </div>
+            <div class="text-block-inf">
+                    <p>Содержит служебную информацию, а также подключаемые стили,<br/> шрифты, файлы скриптов и т.п.</p><br/>
+                    <p>Тег <span>&nbsp;head&nbsp;</span> может включать в себя следующие теги:</p>
+                    <ol>
+                        <li>
+                            <p>Тег <span>&nbsp;<span class="black">&lt;</span>title<span class="black">&gt;</span>&nbsp;</span> — заголовок страницы. Эта информация видна во вкладке</p>
+                            <p>браузера, а также отображается поисковиками в результатах поиска.</p><br/>
+                        </li>
+                        <li>
+                            <p>Мета-теги:</p>
+                            <ul>
+                                <li><span class="black">&lt;</span><span>meta</span>&nbsp;<span class="blue">charset</span>="UTF-8"<span class="black">&gt</span>&nbsp;&lt;!--Указывает кодировку документа--&gt</li>
+                                <li><span class="black">&lt;</span><span>meta</span>&nbsp;<span class="blue">name</span>="description"&nbsp;<span class="blue">content</span>="Описание страницы до 160 символов"<span class="black">&gt</span></li>
+                                <li><span class="black">&lt;</span><span>meta</span>&nbsp;<span class="blue">name</span>="keywords"&nbsp;<span class="blue">content</span>="Несколько ключевых слов"<span class="black">&gt</span></li><br/>
+                            </ul>
+                            <p>Метаданные могут быть использованы браузерами ( для отображения</p>
+                            <p>содержимого или перезагрузки страницы), поисковыми системами (ключевые</p>
+                            <p>слова), или другими веб-сервисами.</p><br/>
+                        </li>
+                        <li>
+                            <p>Теги для подключения стилей, шрифтов, файлов, скриптов.</p>
+                        </li>
+                </ol>
+            </div>
+        </div>
+        <div class="text-block">
+            <div>
+                <div class="text-block-title-big"><div>Теги</div></div>
+            </div>
+            <div class="text-block-inf">
+                    <p><span>Тег&nbsp;</span> - элемент html, текст, заключенный в угловые скобки <span>&nbsp;&lt;имя тега&gt&nbsp;</span></p>
+                    <p>При просмотре в <span>&nbsp;браузере&nbsp;</span> веб документа сами <span>&nbsp;теги&nbsp;</span> не видны.</p>
+                    <p><span>Теги могут быть:&nbsp;</span></p>
+                    <ol>
+                        <li>
+                            <p>Одиночными <span>&nbsp;<span class="black">&lt;</span>имя тега<span class="black">&gt;</span>&nbsp;</span> - используются самостоятельно;</p>
+                        </li>
+                        <li>
+                            <p>Парными <span>&nbsp;<span class="black">&lt;</span>имя тега<span class="black">&gt;</span>&nbsp;</span>...<span>&nbsp;<span class="black">&lt;/</span>имя тега<span class="black">&gt;</span>&nbsp;</span> - могут включать внутри себя другие теги и текст.</p><br/>
+                        </li>
+                    </ol>
+                    <p><span>Парные теги&nbsp;</span>(теги контейнеры)<span>&nbsp;состоят из двух частей&nbsp;</span>:</p>
+                    <ol>
+                        <li>
+                            <p>Открывающий тег <span>&nbsp;<span class="black">&lt;</span>имя тега<span class="black">&gt;</span>&nbsp;</span></p>
+                        </li>
+                        <li>
+                            <p>Закрывающий тег <span>&nbsp;<span class="black">&lt;/</span>имя тега<span class="black">&gt;</span>&nbsp;</span></p><br/>
+                        </li>
+                    </ol>
+                    <p><span>В теги контейнеры можно вкладывать другие теги</span>, при этом необходимо</p>
+                    <p>соблюдать их порядок <span>&nbsp;<span class="black">&lt;</span>имя тега 1<span class="black">&gt;</span></span><span><span class="black">&lt;/</span>имя тега 2<span class="black">&gt;</span></span><span><span class="black">&lt;/</span>имя тега 2<span class="black">&gt;</span></span><span><span class="black">&lt;/</span>имя тега 1<span class="black">&gt;</span></span></p>
+            </div>
+        </div>
+        <div class="text-block">
+            <div>
+                <div class="text-block-title-big"><div>Основные типы тегов</div>:</div>
+            </div>
+            <div class="text-block-inf">
+                <ol>
+                    <li>
+                        <p>Теги верхнего уровня -&nbsp;<span><span class="black">&lt;</span>html<span class="black">&gt;</span></span>,&nbsp;<span><span class="black">&lt;</span>head<span class="black">&gt;</span></span>,&nbsp;<span><span class="black">&lt;</span>body<span class="black">&gt;</span></span></p><br/>
+                    </li>
+                    <li>
+                        <p>Теги заголовка документа -&nbsp;<span><span class="black">&lt;</span>title<span class="black">&gt;</span></span>,&nbsp;<span><span class="black">&lt;</span>meta<span class="black">&gt;</span></span>,&nbsp;<span><span class="black">&lt;</span>link<span class="black">&gt;</span></span></p><br/>
+                    </li>
+                    <li>
+                        <p>Блочные элементы&nbsp;<span><span class="black">&lt;</span>div<span class="black">&gt;</span></span>,&nbsp;<span><span class="black">&lt;</span>h1<span class="black">&gt;</span></span>,&nbsp;<span><span class="black">&lt;</span>p<span class="black">&gt;</span></span>&nbsp;и тд.</p><br/>
+                    </li>
+                    <li>
+                        <p>Строчные элементы&nbsp;<span><span class="black">&lt;</span>a<span class="black">&gt;</span></span>,&nbsp;<span><span class="black">&lt;</span>span<span class="black">&gt;</span></span>,&nbsp;и тд.</p><br/>
+                    </li>
+                    <li>
+                        <p>Списки&nbsp;<span><span class="black">&lt;</span>ol<span class="black">&gt;</span></span>,&nbsp;<span><span class="black">&lt;</span>ul<span class="black">&gt;</span></span>,&nbsp;<span><span class="black">&lt;</span>li<span class="black">&gt;</span></span></p><br/>
+                    </li>
+                    <li>
+                        <p>Таблицы&nbsp;<span><span class="black">&lt;</span>table<span class="black">&gt;</span></span>&nbsp;и тд.</p><br/>
+                    </li>
+                    <li>
+                        <p>Фреймы - устарели, кроме &nbsp;<span><span class="black">&lt;</span>frame<span class="black">&gt;</span></span></p><br/>
+                    </li>
+                </ol>
+                <p>Один и тот же тег может одновременно принадлежать к разным группам.</p>
+            </div>
+        </div>
+        <div class="text-block">
+            <div>
+                <div class="text-block-title-big"><div>Блочные элементы</div>:</div>
+            </div>
+            <div class="text-block-inf">
+                <ol>
+                    <li>
+                        <p>Отображается на странице в виде прямоугольника.</p><br/>
+                    </li>
+                    <li>
+                        <p>Занимает всю доступную ширину (если не установлена).</p><br/>
+                    </li>
+                    <li>
+                        <p>Если один элемент помещен в другой, ширина второго начинает<br/>вычисляться относительно родителя.</p><br/>
+                    </li>
+                    <li>
+                        <p>Высота определяется содержимым (если не установлена).</p><br/>
+                    </li>
+                    <li>
+                        <p>Всегда начинается с новой строки.</p><br/>
+                    </li>
+                    <li>
+                        <p>В один блочный элемент можно вкладывать другой блочный<br/>или строчный элементы.</p><br/>
+                    </li>
+                    <li>
+                        <p>В строчный элемент не следуют вкладывать блочный элемент.</p><br/>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="text-block">
+            <div>
+                <div class="text-block-title-big"><div>Строчные элементы</div>:</div>
+            </div>
+            <div class="text-block-inf">
+                <ol>
+                    <li>
+                        <p>Являются частью строки.</p><br/>
+                    </li>
+                    <li>
+                        <p>Ширина равна содержимому.</p><br/>
+                    </li>
+                    <li>
+                        <p>Свойства, связанные с размерами, не применимы.</p><br/>
+                    </li>
+                    <li>
+                        <p>Внутрь строчных элементов можно вкладывать другие строчные<br/>элементы, но не блочные.</p><br/>
+                    </li>
+                    <li>
+                        <p>Несколько строчных элементов, идущих друг за другом,<br/>переносятся на другую строку при необходимости.</p><br/>
+                    </li>
+                    <li>
+                        <p>Можно выравнивать по вертикали</p><br/>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-container-left">
+
+            </div>
+            <div class="footer-container-right">
+                    <p>Над сайтом работали:&nbsp;</p>
+                    <p>Забожко Владислав Сергеевич и&nbsp;</p>
+                    <p>Кравченко Сергей Вячеславович</p>
+            </div>
+        </div>
+    </footer>
+<script src="js/index.js"></script>
+</body>
+</html>

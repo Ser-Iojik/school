@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Урок 2 (Продолжение)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i&amp;subset=latin-ext,vietnamese" rel="stylesheet">
+</head>
+<body>
+    <header class="header-les">
+        <div id="container_menu-les">
+            <nav>
+                <ul class="menu-les">
+                    <li class="menu__list-les"><div>Меню</div>
+                        <ul class="menu__drop-les">
+                            <li><a href="index.html" title="Перейти на главную страницу">Главная</a></li>
+                            <li><a href="lesson1.html" title="Урок первый">Урок 1 (Основы вёрстки)</a></li>
+                            <li><a href="lesson2.html" title="Урок второй">Урок 2 (Продолжение)</a></li>
+                            <li><a href="lesson3.html" title="Урок третий">Урок 3 (Формы)</a></li>
+                            <li><a href="lesson4.html" title="Урок четвертый">Урок 4 (Box-model)</a></li>
+                            <li><a href="lesson5.html" title="Урок пятый">Урок 5 (Box-model-grid)</a></li>
+                            <li><a href="lesson6.html" title="Урок шестой">Урок 6 (CSS-base)</a></li>
+                            <li><a href="lesson7.html" title="Урок седьмой">Урок 7 (Pseudo)</a></li>
+                            <li><a href="lesson8.html" title="Урок восьмой">Урок 8 (Flex-box)</a></li>
+                            <li><a href="lesson9.html" title="Урок девятый">Урок 9 (Продолжение)</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        <div class="title"><a href="index.html" title="На главную">Курс по базовым знаниям вёрстки</a></div>
+    </div>
+
+    </header>
+    <main class="main-les">
+        <div class="title-les">
+            <div class="title-les-big"><div>Урок 2</div>&nbsp;-&nbsp;Основы вёрстки - продолжение</div>
+            <div class="title-les-description">Атрибуты, списки, ссылки, таблицы, теги img и div</div>
+        </div>
+        <div class="text-block">
+            <div>
+                <div class="text-block-title-big"><div>Атрибуты</div>:</div>
+            </div>
+            <div class="text-block-inf">
+                <p>содержат дополнительную информацию о теге, разделяются между собой пробелом.</p><br/>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<span>&nbsp;<span class="black">&lt;</span>имя_тега</span><span class="blue">&nbsp;имя_атрибута</span>="значение"<span class="blue">&nbsp;имя_атрибута</span>="значение"<span class="black">&gt;</span></p><br/>
+                <ol>
+                    <li><p>Атрибуты могут быть <span>&nbsp;обязательными&nbsp;</span>и<span>&nbsp;необязательными</span>.</p></li>
+                    <li><p>Все значения атрибутов необходимо писать в <span>&nbsp;двойных кавычках</span>.</p></li>
+                    <li><p><span>Теги&nbsp;</span> и их <span>&nbsp;атрибуты&nbsp;</span> не чувствительны к регистру.</p></li>
+                    <li><p>Внутри <span>&nbsp;тега&nbsp;</span> между <span>&nbsp;атрибутами&nbsp;</span> можно ставить перенос строк.</p></li>
+                    <li><p>Если тег или атрибут написан неверно, браузер проигнорирует<br/>и отобразит текст так, будто тега и не было.</p></li>
+                </ol>
+            </div>
+        </div>
+        <div class="text-block">
+            <div>
+                <div class="text-block-title-big"><div>Основные теги и их атрибуты</div>:</div>
+            </div>
+            <div class="text-block-inf">
+                <p><span>Комментарии&nbsp;</span>- не видны в браузере, служат для заметок.</p><br/>
+                <p>&lt;!--Текст комментария--&gt</p><br/>
+                <p>В тег<span>&nbsp;<span class="black">&lt;</span>body</span><span class="black">&gt;</span><span>&nbsp;<span class="black">&lt;/</span>body</span><span class="black">&gt;</span>&nbsp;помещается html-код, который формирует отображение страницы.</p><br/>
+                <p>Теги заголовков<span>&nbsp;h1&nbsp;</span>,<span>&nbsp;h2&nbsp;</span>,<span>&nbsp;h3&nbsp;</span> - блочные элементы, заголовки,</p>
+                <p>соответственно первого, второго … шестого уровней.</p>
+                <p>Чем больше цифра, тем менее значим заголовок.</p><br/>
+                <p><span>Атрибуты и значения</span>:</p><br/>
+                <p><span class="blue">align</span>=”left | right | center” - определяет выравнивание текста.</p><br/>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="black">&lt;</span><span>h3&nbsp;</span><span class="blue">align</span>="left"<span class="black">&gt;</span>Заголовок третьего уровня<span class="black">&lt;/</span><span>h3</span><span class="black">&gt;</span></p>         
+            </div>
+        </div>
+        <div class="text-block">
+            <div>
+                <div class="text-block-title-big"><div>Списки</div>:</div>
+            </div>
+            <div class="text-block-inf">
+                <p><span>Списки&nbsp;</span>- набор взаимосвязанных предложений, которые начинаются с маркера или цифры.</p><br/>
+                <p><span>Тег <span class="black">&lt;</span>ul<span class="black">&gt;&lt;/</span>ul<span class="black">&gt;&nbsp;</span></span>- устанавливает маркированный список.</p><br/>
+                <p><span>Тег <span class="black">&lt;</span>ol<span class="black">&gt;&lt;/</span>ol<span class="black">&gt;&nbsp;</span></span>- устанавливает нумерованный список.</p><br/>
+                <p><span>Теги <span class="black">&lt;</span>ul<span class="black">&gt;&lt;</span>ol<span class="black">&gt;&nbsp;</span></span>-<span>&nbsp;блочные элементы</span></p><br/>
+                <p><span>Атрибуты и значения</span>:</p><br/>
+                <ul>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">type</span> - устанавливает вид маркера списка</li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">type</span>=”disc | circle | square” вид маркера</li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">type</span>=”A | a | I | i | 1 ”</li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">reversed</span> - обратная нумерация</li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">start</span> - число, с которого начинается список</li>
+                </ul>          
+            </div>
+        </div>
+        <div class="text-block">
+            <div>
+                <div class="text-block-title-big"><div>Списки</div>:</div>
+            </div>
+            <div class="text-block-inf">
+                <p>Каждый элемент списка должен начинаться с тега <span>&nbsp;<span class="black">&lt;</span>li<span class="black">&gt;</span></p><br/>
+                <p><span>Тег <span class="black">&lt;</span>li<span class="black">&gt;</span>&nbsp;</span>- блочный элемент.</p><br/>
+                <p><span>Атрибуты и значения</span>:</p><br/>
+                <ul>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">type</span> - устанавливает вид маркера списка</li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">type</span>=”disc | circle | square” вид маркера</li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">type</span>=”A | a | I | i | 1 ”</li>
+                </ul>         
+            </div>
+        </div>
+        <div class="text-block">
+            <div>
+                <div class="text-block-title-big"><div>Начертание текста - строчные элементы</div>:</div>
+            </div>
+            <div class="text-block-inf">
+                <p><span><span class="black">&lt;</span>b<span class="black">&gt;</span></span><b>жирное начертание</b><span><span class="black">&lt;/</span>b<span class="black">&gt;</span>&nbsp;</span>- физическое выделение</p><br/>
+                <p><span><span class="black">&lt;</span>strong<span class="black">&gt;</span></span><strong>воспринимается браузером, как жирное начертание</strong><span><span class="black">&lt;/</span>strong<span class="black">&gt;</span>&nbsp;</span></p>
+                <p>- логическое акцентирование, выделяется интонацией,<br/> более современен.</p><br/>
+                <p><span><span class="black">&lt;</span>i<span class="black">&gt;</span></span><strong>курсивное начертание</strong><span><span class="black">&lt;/</span>i<span class="black">&gt;</span>&nbsp;</span>- физическое выделение.</p><br/>
+                <p><span><span class="black">&lt;</span>em<span class="black">&gt;</span></span><em>воспринимается браузером, как жирное начертание</em><span><span class="black">&lt;/</span>em<span class="black">&gt;</span>&nbsp;</span></p>
+                <p>- логическое акцентирование, выделяется интонацией,<br/> более современен.</p><br/>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-container-left">
+
+            </div>
+            <div class="footer-container-right">
+                    <p>Над сайтом работали:&nbsp;</p>
+                    <p>Забожко Владислав Сергеевич и&nbsp;</p>
+                    <p>Кравченко Сергей Вячеславович</p>
+            </div>
+        </div>
+    </footer>
+<script src="js/index.js"></script>
+</body>
+</html>
