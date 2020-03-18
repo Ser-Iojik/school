@@ -1,0 +1,427 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font: 1em/1.4em sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+a:link { text-decoration: none; } 
+a:visited { text-decoration: none; } 
+a:active { text-decoration: none; }
+a:hover { text-decoration: none; } 
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Стиль для шапки */
+
+.header {
+    background: url(../img/background-image-1v1.3.jpeg) center center no-repeat fixed;
+    background-size: cover; 
+    height: 500px;
+}
+
+.header-lessons {
+    background: #666;
+    height: 50px;
+}
+
+#container_menu {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    background: rgba(255, 255, 255, 0);
+    height: 50px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#container_menu.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Стиль для меню */
+
+/* Всплывающее меню */
+
+.menu {
+    display: block;
+}
+
+.menu a {
+    background: rgba(255, 255, 255, 0);
+    color: #fff;
+    padding: 10px;
+    display: block;
+    transition: 0.5s all;
+}
+
+.menu a:hover {
+    padding: 10px 0 10px 20px;
+}
+
+.menu__list {
+    height: 50px;
+    width: 220px;
+    position: relative;
+}
+
+.menu__list div {
+    color: #fff;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 20pt;
+    background: rgba(255, 255, 255, 0);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.menu__drop {
+    width: 220px;
+    position: absolute;
+    top: -9999em;
+    opacity: 0;
+    transition: 0.5s opacity;
+}
+
+.menu__list:hover .menu__drop {
+    opacity: 1;
+    top: 50px;
+}
+
+#container_menu-les {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    background: #171717;
+    height: 50px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#container_menu-les.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu-les {
+    display: block;
+}
+
+.menu-les a {
+    background: #171717;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    transition: 0.5s all;
+}
+
+.menu-les a:hover {
+    padding: 10px 0 10px 20px;
+    background: #009E8E;
+}
+
+.menu__list-les {
+    height: 50px;
+    width: 220px;
+    position: relative;
+}
+
+.menu__list-les div {
+    color: #fff;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 20pt;
+    background: #171717;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.menu__drop-les {
+    width: 220px;
+    position: absolute;
+    top: -9999em;
+    opacity: 0;
+    transition: 0.5s opacity;
+}
+
+.menu__list-les:hover .menu__drop-les {
+    opacity: 1;
+    top: 50px;
+}
+
+/* end Всплывающее меню */
+
+/* end Стиль для меню */
+
+/* Стиль для заголовка */
+
+.title {
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.6em;
+    padding: 13px;
+    margin-left: 20%;
+}
+
+.title a {
+    color: #fff;
+}
+
+/* end Стиль для заголовка */
+
+/* Стиль для текста в header */
+
+.header-text {
+    max-width: 980px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.header-text-top {
+    padding-top: 12%;
+    text-align: center;
+    font-size: 16pt;
+}
+
+.header-text-medium {
+    padding-top: 5%;
+    text-align: center;
+    font-size: 33pt;
+}
+
+.header-text-bottom {
+    padding-top: 3%;
+    text-align: center;
+    font-size: 18pt;
+}
+
+/* end Стиль для текста в header */
+
+
+/* Стиль для блока main */
+
+.wy-we {    
+    max-width: 980px;
+    margin: 0 auto;
+    height: 500px;
+    text-align: center;
+}
+
+.cause {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1em;
+    font-size: 30pt;
+    color: #8d8d8d;
+    padding-left: 100px;
+}
+
+.cause div {
+    color: #FFAD73;
+}
+
+.circle-container-all {
+    padding-top: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.circle-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.circle {
+    width: 220px;
+    height: 220px;
+    background: #91e9e9;
+    border-radius: 50%;
+}
+
+.circle img {
+    padding-top: 46px;
+}
+
+.circle-text {
+    padding-top: 15px;
+    text-align: center;
+    line-height: 1.1;
+    color: #FF8F40;
+    font-size: 14pt;
+}
+
+.main-les {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.title-les {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.title-les-big {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1em;
+    font-size: 30pt;
+    color: #8d8d8d;
+}
+
+.title-les-big div {
+    color: #FFAD73;
+}
+
+.title-les-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1em;
+    font-size: 16pt;
+    color: #91e9e9;
+}
+
+.text-block {
+    margin-bottom: 75px;
+    padding-bottom: 3em;
+    width: 100%;
+    border: 2px #666 solid;
+    box-shadow: #91e9e9 0 0 50px;
+}
+
+.text-block-title-big {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 30px;
+    padding-top: 1em;
+    font-size: 30pt;
+    color: #8d8d8d;
+}
+
+.text-block-title-big div {
+    color: #FFAD73;
+}
+
+.text-block-inf {
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 1em;
+    font-size: 16pt;
+    color: #8d8d8d;
+}
+
+.text-block-inf span {
+    height: 1em;
+    color: #FFAD73;
+}
+
+.text-block-inf span.blue {
+    height: 1em;
+    color: #91e9e9;
+}
+
+.text-block-inf span.black {
+    height: 1em;
+    color: #000;
+}
+
+.text-block-inf p {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.text-block-inf p.black {
+    margin-top: 0.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: #000;
+}
+
+.text-block-inf p.p__margin-top {
+    margin-top: 0.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.lesson_foto {
+    display: flex;
+    justify-content: center;
+}
+
+/* end Стиль для блока main */
+
+/* Стиль для блока footer*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    background: #171717;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    background: #171717;
+    padding-top: 15px;
+}
+
+.footer-container-left {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+
+.footer-container-right {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    text-align: left;
+    font-size: 14pt;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+}
+
+.footer-container-right ul {
+    list-style: inherit;
+}
+
+.footer-container-right div {
+    padding-top: 1em;
+}
+
+/* end Стиль для блока footer*/
